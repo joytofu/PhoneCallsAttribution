@@ -8,7 +8,6 @@ class Autoload
         if(is_file($fileName)){
             require_once $fileName;
         }
-        var_dump($fileName);
     }
 }
 
