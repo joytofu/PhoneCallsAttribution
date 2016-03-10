@@ -42,7 +42,7 @@ class CellsQuery
             }
     }
 
-    protected function request($phone = null){
+    public function request($phone = null){
         $ch = curl_init();
 
         $url = 'http://apis.baidu.com/apistore/mobilephoneservice/mobilephone?tel='.$phone;
